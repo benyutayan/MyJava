@@ -11,6 +11,8 @@ public class List1 {
 		list.add(6);
 		list.add(8);
 		System.out.println(list);
+		
+		
 	}
 
 }
