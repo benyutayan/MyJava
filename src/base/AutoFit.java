@@ -54,6 +54,7 @@ public class AutoFit {
 		String factor1 = "";
 		String factor2 = "";
 		
+		
 		String result = "";
 		
 		String indicator7172 = "";
