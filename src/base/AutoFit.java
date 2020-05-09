@@ -45,6 +45,7 @@ public class AutoFit {
 		
 		int count = 0;            //Ëõ½øÊıÁ¿
 		
+		
 		BufferedReader br = null;
 		String contentOfLine = "";
 		String contentOfLine1 = "";
