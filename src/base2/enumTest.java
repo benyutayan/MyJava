@@ -1,6 +1,6 @@
 package base2;
 
-import base.Weekday;
+import base.Enum.Weekday;
 
 public class enumTest {
 
