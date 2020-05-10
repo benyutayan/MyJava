@@ -37,5 +37,7 @@ public class ArrayListTest {
 		for (String str : list) {
 			System.out.println(str);
 		}
+		
+		System.out.println(list.size());
 	}
 }
