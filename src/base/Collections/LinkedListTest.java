@@ -14,6 +14,12 @@ public class LinkedListTest {
 		linkedlist1.addFirst("start");
 		linkedlist1.addLast("end");
 		
+		//toArray
+		String[] strarr = (String[]) linkedlist1.toArray(new String[0]);
+		for (String x : strarr) {
+			System.out.println(x);
+		}
+		
 		// delete
 		linkedlist1.remove();
 		linkedlist1.remove(1);
@@ -25,6 +31,8 @@ public class LinkedListTest {
 		
 		System.out.println(linkedlist1);
 		
+		
+		//
 		String[] arr = {"L", "i", "n", "K"};
 		LinkedList<String> linkedlist2 = new LinkedList<String>(Arrays.asList(arr));
 		System.out.println(linkedlist2);
